@@ -1,7 +1,5 @@
 import { SiNextdotjs } from "react-icons/si";
-import {
-  FramerMotionIcon,
-} from "@/components/icons";
+import { FramerMotionIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages

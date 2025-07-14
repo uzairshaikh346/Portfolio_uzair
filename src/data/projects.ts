@@ -31,7 +31,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/luxe.png",
     },
   },
-
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
