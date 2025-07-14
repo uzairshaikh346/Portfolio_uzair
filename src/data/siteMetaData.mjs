@@ -1,0 +1,22 @@
+export const siteMetadata = {
+  title: "Muhammad Uzair | Frontend Developer",
+  author: "Muhammad Uzair",
+  headerTitle: "Muhammad Uzair",
+  description:
+    "Frontend and React.js Developer | Passionate about building interactive web applications",
+  language: "en-US",
+  theme: "light",
+  siteName: "muhammaduzair.dev",
+  siteUrl: "https://muhammaduzair.dev",
+  siteRepo: "https://github.com/uzairshaikh346",
+  siteLogo: "/favicon.ico",
+  image: "/static/images/homepage.png",
+  twitterImage: "/static/images/twitter-banner.png",
+  socialBanner: "/static/images/social-banner.png",
+  email: "muhammaduzair@example.com",
+  github: "https://github.com/uzairshaikh346",
+  twitter: "https://twitter.com/MuhammadUzair",
+  linkedin: "https://www.linkedin.com/in/muhammad-uzair-2526732a6/",
+  locale: "en-US",
+  googleSiteVerification: "your-google-site-verification-code",
+};
