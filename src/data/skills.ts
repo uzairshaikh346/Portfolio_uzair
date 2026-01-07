@@ -28,6 +28,7 @@ import GithubSvg from "@/public/icons/github.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 import VscodeSvg from "@/public/icons/vscode.svg";
 import CursorSvg from "@/public/icons/cursor.svg";
+import fastapi from "@/public/icons/fastapi-icon.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -55,7 +56,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Backend",
     skills: [
       { name: "Node.js", icon: NodejsSvg },
-      { name: "Sanity CMS", icon: SanitySvg },
+      { name: "FastAPI", icon: fastapi },
+      { name: "CMS", icon: SanitySvg },
     ],
   },
   {

@@ -2,7 +2,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Diploma in Cloud-Native & Generative AI Engineering",
+    title: "Diploma in Cloud-Native & Agentic AI Engineering",
     organisation: {
       name: "Panaversity(GIAIC)",
       href: "https://www.panaverse.co/",
@@ -15,10 +15,10 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Bachelor of Business Administration (BBA) — Ongoing",
     organisation: {
-      name: "University of Karachi",
+      name: "Allama Iqbal University",
       href: "https://uok.edu.pk/",
     },
-    date: "2023 – Present",
+    date: "2026 – Present",
     location: "Karachi, Sindh",
     description:
       "Pursuing a degree in Business Administration with a focus on management, finance, and entrepreneurship.",
@@ -26,7 +26,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Intermediate in Commerce",
     organisation: {
-      name: "Premier College",
+      name: "Govt City college",
       href: "https://abc123.com", // Replace with actual link if available
     },
     date: "2017 – 2019",

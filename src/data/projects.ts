@@ -3,22 +3,22 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Jacket Store",
-    href: "https://new-ecom-jacket.vercel.app/",
-    tags: ["Nextjs", "Tailwindcss", "Headless CMS", "Stripe"],
+    title: "Zaura Store",
+    href: "https://www.zaura.store/",
+    tags: ["Nextjs", "Tailwindcss", "Mongo DB", "Vercel"],
     image: {
-      LIGHT: "/images/projects/jacketStore.png",
-      DARK: "/images/projects/jecketStore.png",
+      LIGHT: "/images/projects/zauraStore.png",
+      DARK: "/images/projects/zauraStore.png",
     },
   },
   {
     index: 1,
-    title: "Gemini Chat Bot",
-    href: "https://uzair-s-gemini.vercel.app/",
-    tags: ["Nextjs", "Tailwindcss", "Google ai SDK", "Vercel"],
+    title: "Todo App",
+    href: "https://todo-full-stack-topaz.vercel.app/",
+    tags: ["Nextjs", "Tailwindcss", "Headless CMS", "Stripe"],
     image: {
-      LIGHT: "/images/projects/gemini.png",
-      DARK: "/images/projects/gemini.png",
+      LIGHT: "/images/projects/todoAPp.png",
+      DARK: "/images/projects/todoAPp.png",
     },
   },
   {
@@ -35,16 +35,70 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Jacket Store",
+    name: "Todo",
     favicon: "/images/projects/logos/jacket.ico",
+    imageUrl: ["/images/projects/todoAPp.png", "/images/projects/todoAPp.png"],
+    description:
+      "A full-stack Todo application with authentication, password recovery, and complete CRUD operations, built using a modern stack with Neon PostgreSQL for reliable data management.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/todo_full_stack",
+    liveWebsiteHref: "https://todo-full-stack-topaz.vercel.app/",
+  },
+  {
+    name: "Luxe",
+    favicon: "/images/projects/logos/luxe.ico",
+    imageUrl: ["/images/projects/luxe.png", "/images/projects/luxe.png"],
+    description:
+      "A luxury e-commerce platform built with Next.js, Tailwind CSS, and Redux Toolkit. Features headless CMS integration and Stripe payment processing.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/Luxe",
+    liveWebsiteHref: "https://luxe-pink.vercel.app/",
+  },
+  {
+    name: "Zaura",
+    favicon: "/images/projects/logos/luxe.ico",
     imageUrl: [
-      "/images/projects/jecketStore.png",
-      "/images/projects/jecketStore.png",
+      "/images/projects/zauraStore.png",
+      "/images/projects/zauraStore.png",
     ],
     description:
-      "An e-commerce store focused on jackets and outerwear. Built with Next.js, Tailwind CSS, and integrated with a headless CMS and Stripe for payments.",
-    sourceCodeHref: "https://github.com/uzairshaikh346/New_Ecom_jacket",
-    liveWebsiteHref: "https://new-ecom-jacket.vercel.app/",
+      "A luxury e-commerce platform built with Next.js, Tailwind CSS, and Redux Toolkit. Features headless CMS integration and Stripe payment processing.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/zaura",
+    liveWebsiteHref: "https://www.zaura.store/",
+  },
+  {
+    name: "Humanoid Robotics and physical ai book with RAG chatbot",
+    favicon: "/images/projects/logos/luxe.ico",
+    imageUrl: [
+      "/images/projects/humanoidBook.png",
+      "/images/projects/humanoidBook.png",
+    ],
+    description:
+      "A humanoid robotics documentation platform built with a modern web stack, featuring an AI-powered RAG chatbot for intelligent, real-time knowledge retrieval.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/humanoid-robotics",
+    liveWebsiteHref: "https://uzairshaikh346.github.io/humanoid-robotics/",
+  },
+  {
+    name: "Sumera Traders",
+    favicon: "/images/projects/logos/luxe.ico",
+    imageUrl: [
+      "/images/projects/sumeraTraders.png",
+      "/images/projects/sumeraTraders.png",
+    ],
+    description:
+      "A luxury e-commerce platform built with Next.js, Tailwind CSS, and Context API.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/Sumera-traders",
+    liveWebsiteHref: "https://www.sumeratrader.com/",
+  },
+  {
+    name: "Weather Checking App",
+    favicon: "/images/projects/logos/weather.ico",
+    imageUrl: [
+      "/images/projects/weatherApp.png",
+      "/images/projects/weatherApp.png",
+    ],
+    description:
+      "A weather application that provides real-time weather information. Built using Next.js and integrates with weather APIs to display accurate forecasts.",
+    sourceCodeHref: "https://github.com/uzairshaikh346/weather-app-next.js",
+    liveWebsiteHref: "https://weather-app-next-js-t7c8.vercel.app/",
   },
   {
     name: "Gemini Chat Bot",
@@ -58,27 +112,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "An AI chatbot powered by Google's Gemini AI. Built using Next.js, Tailwind CSS, and Google AI SDK. Deployed on Vercel for seamless interaction.",
     sourceCodeHref: "https://github.com/uzairshaikh346/uzair-s-gemini",
     liveWebsiteHref: "https://uzair-s-gemini.vercel.app/",
-  },
-  {
-    name: "Luxe",
-    favicon: "/images/projects/logos/luxe.ico",
-    imageUrl: ["/images/projects/luxe.png", "/images/projects/luxe.png"],
-    description:
-      "A luxury e-commerce platform built with Next.js, Tailwind CSS, and Redux Toolkit. Features headless CMS integration and Stripe payment processing.",
-    sourceCodeHref: "https://github.com/uzairshaikh346/Luxe",
-    liveWebsiteHref: "https://luxe-pink.vercel.app/",
-  },
-  {
-    name: "Weather Checking App",
-    favicon: "/images/projects/logos/weather.ico",
-    imageUrl: [
-      "/images/projects/weatherApp.png",
-      "/images/projects/weatherApp.png",
-    ],
-    description:
-      "A weather application that provides real-time weather information. Built using Next.js and integrates with weather APIs to display accurate forecasts.",
-    sourceCodeHref: "https://github.com/uzairshaikh346/weather-app-next.js",
-    liveWebsiteHref: "https://weather-app-next-js-t7c8.vercel.app/",
   },
   {
     name: "Blog Web",
@@ -101,17 +134,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref:
       "https://github.com/uzairshaikh346/Market_builder_hackthone",
     liveWebsiteHref: "https://market-builder-hackthone-f41u.vercel.app/",
-  },
-  {
-    name: "Orionsols WebSite",
-    favicon: "/images/projects/logos/orion.ico",
-    imageUrl: [
-      "/images/projects/orionsols.png",
-      "/images/projects/orionsols.png",
-    ],
-    description:
-      "Corporate website for Orionsols, showcasing company services, portfolio, and contact information. Built with modern web technologies for optimal performance.",
-    sourceCodeHref: "https://github.com/uzairshaikh346",
-    liveWebsiteHref: "https://orionsols.com",
   },
 ];

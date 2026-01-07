@@ -7,8 +7,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Orionsols",
       href: "https://orionsols.com",
     },
-    date: "Dec 2024 - Present",
+    date: "Dec 2024 - Aug 2025",
     location: "Karachi",
-    description: "Reactjs and Nextjs web app development",
+    description: "Nextjs web app development",
   },
 ];
