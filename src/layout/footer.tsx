@@ -18,12 +18,21 @@ export default function Footer() {
         >
           <span>uzairshaikh346@gmail.com</span>
         </a>
-        <div className="flex justify-center">
+        <div className="flex flex-col items-center justify-center gap-4">
+          <a
+            href={siteMetadata.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-full border border-background bg-background px-6 py-3 text-sm font-semibold text-accent transition-colors duration-150 hover:bg-transparent hover:text-background md:text-base"
+          >
+            <LinkedinIcon className="h-5 w-5 fill-current" />
+            <span>Connect on LinkedIn</span>
+          </a>
           <ContactButton />
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2024 Muhammad Uzair</span>
+        <span className="text-foreground">©2026 Muhammad Uzair</span>
         <div className="flex gap-8">
           <a
             href={siteMetadata.github}

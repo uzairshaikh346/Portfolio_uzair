@@ -1,5 +1,22 @@
-import { SiNextdotjs } from "react-icons/si";
-import { FramerMotionIcon } from "@/components/icons";
+import {
+  SiNextdotjs,
+  SiPostgresql,
+  SiDocker,
+  SiNetlify,
+  SiMysql,
+  SiOpenai,
+  SiChatbot,
+} from "react-icons/si";
+import {
+  TbBrain,
+  TbMessageChatbot,
+  TbBrandOpenai,
+  TbPrompt,
+  TbBrandVercel,
+} from "react-icons/tb";
+import { TiFlowParallel } from "react-icons/ti";
+import { BiSolidVector } from "react-icons/bi";
+import { FramerMotionIcon, ShadcnIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -50,6 +67,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Tailwind CSS", icon: TailwindcssSvg },
       { name: "Framer Motion", icon: FramerMotionIcon },
       { name: "Vite", icon: ViteSvg },
+      { name: "Shadcn UI", icon: ShadcnIcon },
+    ],
+  },
+  {
+    sectionName: "AI & Agentic",
+    skills: [
+      { name: "OpenAI Agent SDK", icon: TbBrandOpenai },
+      { name: "RAG (Retrieval-Augmented Generation)", icon: TbBrain },
+      { name: "Multi-Agent Systems", icon: TbMessageChatbot },
+      { name: "LLM Integration", icon: SiOpenai },
+      { name: "AI Chatbot Integration", icon: SiChatbot },
+      { name: "Prompt Engineering", icon: TbPrompt },
     ],
   },
   {
@@ -61,8 +90,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
+    sectionName: "Automation",
+    skills: [{ name: "n8n Workflow Automation", icon: TiFlowParallel }],
+  },
+  {
     sectionName: "Databases and ORMs",
-    skills: [{ name: "MongoDB", icon: MongoDBSvg }],
+    skills: [
+      { name: "MongoDB", icon: MongoDBSvg },
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "Neon SQL", icon: SiPostgresql },
+      { name: "pgvector", icon: BiSolidVector },
+      { name: "MySQL", icon: SiMysql },
+    ],
   },
   {
     sectionName: "Tools and Technologies",
@@ -72,6 +111,9 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Postman", icon: PostmanSvg },
       { name: "VS Code", icon: VscodeSvg },
       { name: "Cursor", icon: CursorSvg },
+      { name: "Docker", icon: SiDocker },
+      { name: "Vercel", icon: TbBrandVercel },
+      { name: "Netlify", icon: SiNetlify },
     ],
   },
 ];

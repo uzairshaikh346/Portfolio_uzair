@@ -42,17 +42,14 @@ export default function LandingHero() {
                 Muhammad Uzair
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Passionate Developer
+                {"AI Engineer & Full Stack Developer"}
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I build modern, scalable, and user-friendly web applications
-                using <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">TypeScript</span>{" "}
-                and AI-powered solutions. Lets create something amazing
-                together!{" "}
+                {
+                  "I build intelligent AI Agents, RAG pipelines, and full-stack web applications using OpenAI Agent SDK, FastAPI, and Next.js. Let's build something powerful together."
+                }
               </div>
             </FadeUp>
           </AnimatePresence>

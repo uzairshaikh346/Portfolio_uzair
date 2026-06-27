@@ -10,8 +10,8 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Muhammad Uzair | Developer"
-        description="Learn more about Muhammad Uzair, a dedicated Software Developer with 6 months of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Muhammad Uzair | AI Engineer & Full Stack Developer"
+        description="Learn more about Muhammad Uzair, an AI Engineer and Full Stack Developer specializing in AI Agents, RAG Systems, and LLM integration. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
       />
       <AboutHero />
       <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />

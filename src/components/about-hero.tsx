@@ -36,10 +36,9 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I&apos;m a passionate developer focused on building modern and
-              scalable web applications. Over the past year, I&apos;ve worked on
-              real-world projects using React, Next.js, and TypeScript, along
-              with tools like Tailwind CSS, Shadcn UI, and Sanity.
+              I&apos;m an AI Engineer and Full Stack Developer specializing in
+              AI Agents, RAG Systems, and LLM integration using OpenAI SDK,
+              FastAPI, and Next.js. Based in Karachi, Pakistan.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>

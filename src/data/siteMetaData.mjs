@@ -1,9 +1,9 @@
 export const siteMetadata = {
-  title: "Muhammad Uzair | Frontend Developer",
+  title: "Muhammad Uzair | AI Engineer & Full Stack Developer",
   author: "Muhammad Uzair",
   headerTitle: "Muhammad Uzair",
   description:
-    "Frontend and React.js Developer | Passionate about building interactive web applications",
+    "Muhammad Uzair is an AI Engineer and Full Stack Developer specializing in AI Agents, RAG Systems, and LLM integration using OpenAI SDK, FastAPI, and Next.js. Based in Karachi, Pakistan.",
   language: "en-US",
   theme: "light",
   siteName: "muhammaduzair.dev",

@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Muhammad Uzair | Developer"
-        description="Explore the professional portfolio of Muhammad Uzair, a skilled Software Developer with 6 months of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Muhammad Uzair | AI Engineer & Full Stack Developer"
+        description="Muhammad Uzair is an AI Engineer and Full Stack Developer specializing in AI Agents, RAG Systems, and LLM integration using OpenAI SDK, FastAPI, and Next.js. Based in Karachi, Pakistan."
       />
       <Head>
         {siteMetadata.googleSiteVerification && (
